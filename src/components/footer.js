@@ -69,14 +69,13 @@ export const Footer = () => {
             </Box>
 
             <Text fontSize={'sm'}>
-              © {new Date().getFullYear()}, VirtualShip developers. Apache 2.0
+              © {new Date().getFullYear()}, KinderKlimaatConcertDag. Apache 2.0
               Licensed.
             </Text>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Parcels</ListHeader>
-
-            {footerItems.parcels.map((item) => {
+            <ListHeader>Het evenement</ListHeader>
+            {footerItems.evenement.map((item) => {
               return (
                 <Link
                   key={item.label}
@@ -90,23 +89,8 @@ export const Footer = () => {
             })}
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Resources</ListHeader>
-            {footerItems.resources.map((item) => {
-              return (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  fontSize={'sm'}
-                  _hover={{ color: 'blue.500' }}
-                >
-                  {item.label}
-                </Link>
-              )
-            })}
-          </Stack>
-          <Stack align={'flex-start'}>
-            <ListHeader>Community</ListHeader>
-            {footerItems.community.map((item) => {
+            <ListHeader>Stichting</ListHeader>
+            {footerItems.stichting.map((item) => {
               return (
                 <Link
                   key={item.label}
