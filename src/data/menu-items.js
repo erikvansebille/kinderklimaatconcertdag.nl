@@ -1,5 +1,5 @@
 export const menuItems = [
-  { label: 'Features', href: '/#features' },
+  { label: 'Concert', href: '/#concert' },
   // { label: 'Projects', href: '/#projects' }, TODO uncomment when projects are ready
   { label: 'Funders', href: '/#funders' },
   { label: 'Blog', href: '/blog' },
