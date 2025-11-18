@@ -10,7 +10,7 @@ export const footerItems = {
   stichting: [
     {
       label: 'Bestuur',
-      href: '',
+      href: 'stichting',
     },
   ],
 }
