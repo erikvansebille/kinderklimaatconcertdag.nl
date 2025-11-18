@@ -3,13 +3,11 @@ import { CurrentTeamMember, OprichterTeamMember, BestuurTeamMember } from '../ty
 export const OprichterTeamMember: OprichterTeamMember[] = [
   {
     name: 'Donna van Leeuwen',
-    position: 'Jonge Muzikant',
-    image: 'team/DonnavanLeeuwen.jpg',
+    image: 'team/DonnavanLeeuwen.jpeg',
   },
   {
     name: 'Luna van Leeuwen',
-    position: 'Jonge Muzikant',
-    image: 'team/DonnavanLeeuwen.jpg',
+    image: 'team/LunavanLeeuwen.jpeg',
   },
 ]
 
@@ -35,7 +33,5 @@ export const OverigTeamMembers: OverigTeamMember[] = [
   {
     name: 'Erik van Sebille',
     position: 'Hoogleraar oceanografie',
-    description:
-      "Erik adviseert de stichting over klimaatwetenschap.",
-  },
+  }
 ]
