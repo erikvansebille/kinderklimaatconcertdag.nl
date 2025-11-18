@@ -82,8 +82,26 @@ const UtrechtTeam = () => {
               <TeamMember key={member.name} member={member} />
             ))}
           </SimpleGrid>
+      <Box py={4}>
+        <Text>
+        De statuten zijn <a href="statuten.pdf">hier</a> te downloaden. KKCD committeert zich aan de naleving van de Code Cultural Governance.
+
+        <p></p>
+        KKCD heeft de status van een culturele ANBI (Algemeen Nut Beogende Instelling) aangevraagd en verwacht deze binnenkort met terugwerkende kracht vanaf 14 mei 2025 te verkrijgen. Voor donateurs van culturele ANBI’s geldt een extra giftenaftrek. Particulieren mogen 1,25 keer het bedrag van de gift aftrekken in de aangifte inkomstenbelasting. Ondernemingen die onder de vennootschapsbelasting vallen, mogen 1,5 keer het bedrag van de gift aftrekken in de aangifte vennootschapsbelasting.
+
+        <p></p>
+        Beleidsplan: TODO
+
+        <p></p>
+        Vooralsnog ontvangt de directie maximaal 10% van de totale projectbegroting.
+
+        <p></p>
+        De bestuursleden en adviseur doen hun werk onbezoldigd. Zij krijgen desgewenst een vergoeding van de door hen gemaakte kosten.
+        </Text>
+      </Box>
         </Container>
       </Box>
+
     </Layout>
   )
 }
